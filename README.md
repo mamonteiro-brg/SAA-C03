@@ -35,7 +35,9 @@ You can use the following mechanisms for authentication and authorization:
      Lambda authorizers are Lambda functions that control access to REST API methods using bearer token authentication—as well as information described by headers, paths, query strings, stage variables, or context variables request parameters. Lambda authorizers are used to control who can invoke REST API methods.
      Amazon Cognito user pools let you create customizable authentication and authorization solutions for your REST APIs. Amazon Cognito user pools are used to control who can invoke REST API methods.
 - to attach elastic network interface (ENI) with running EC2 instance , you have to use Hot Attach
-- 
+- to collect logs from EC2 instances = Install the Amazon CloudWatch Logs agent on EC2 instances.
+
+
 
 
 
