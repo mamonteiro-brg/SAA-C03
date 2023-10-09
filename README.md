@@ -2,6 +2,8 @@
 Preparation Material for SAA-C03
 
 
+
+
 Exam Tips
 - the company want to generate the keys then store it in AWS with enabling cross-region replication then you have to configure S3 buckets to use SSE with AWS KMS-Managed Keys (SSE-KMS) with imported key material in both regions
 - to secure the data in EBS volume = encrypt the data using KMS
