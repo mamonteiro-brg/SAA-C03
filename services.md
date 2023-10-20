@@ -440,3 +440,28 @@ Amazon Aurora Global Database
 
 AWS OpsWork
 
+storage using block protocols (iSCSI) 
+file protocols (NFS)
+The application stores data on a network attached storage (NAS) device using the NFS protocol.
+
+
+AWS Gobal Accelerator
+    AWS Global Accelerator is a networking service that helps you improve the availability, performance, and security of your public applications. Global Accelerator provides two global static public IPs that act as a fixed entry point to your application endpoints, such as Application Load Balancers, Network Load Balancers, Amazon Elastic Compute Cloud (EC2) instances, and elastic IPs.
+
+S3 transfer acceleration
+
+
+
+Amazon RDS Proxy
+
+    Amazon RDS Proxy is a fully managed, highly available database proxy for Amazon Relational Database Service (RDS) that makes applications more scalable, more resilient to database failures, and more secure.
+
+    Many applications, including those built on modern serverless architectures, can have a large number of open connections to the database server and may open and close database connections at a high rate, exhausting database memory and compute resources. Amazon RDS Proxy allows applications to pool and share connections established with the database, improving database efficiency and application scalability. With RDS Proxy, failover times for Aurora and RDS databases are reduced by up to 66% and database credentials, authentication, and access can be managed through integration with AWS Secrets Manager and AWS Identity and Access Management (IAM).
+
+    Amazon RDS Proxy can be enabled for most applications with no code changes. You don’t need to provision or manage any additional infrastructure to start using RDS Proxy. Pricing is simple and based on the capacity of underlying database instances. You pay per Aurora Capacity Unit (ACU) for Amazon Aurora Serverless v2 instances or per vCPU for provisioned instances. Amazon RDS Proxy is available for Amazon Aurora with MySQL compatibility, Amazon Aurora with PostgreSQL compatibility, Amazon RDS for MariaDB, Amazon RDS for MySQL, Amazon RDS for PostgreSQL, and Amazon RDS for SQL Server.
+
+
+Amazon Quantum Ledger Database (QLDB)
+    Amazon Quantum Ledger Database (QLDB) is a purpose-built ledger database that provides a complete and cryptographically verifiable history of all changes made to your application data.
+
+
