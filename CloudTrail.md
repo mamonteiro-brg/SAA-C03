@@ -17,13 +17,15 @@ There are two types of events that you configure your CloudTrail for:
     Data Events, on the other hand, provide visibility into the resource operations performed on or within a resource. These are also known as data plane operations. It allows granular control of data event logging with advanced event selectors. You can currently log data events on different resource types such as Amazon S3 object-level API activity (e.g. GetObject, DeleteObject, and PutObject API operations), AWS Lambda function execution activity (the Invoke API), DynamoDB Item actions, and many more.
 
 
-Amazon CloudTrail can be used to log activity on the reports. The key difference between the two answers that include CloudTrail is that one references data events whereas the other references management events.
+Amazon CloudTrail can be used to log activity on the reports. 
+
 Data events provide visibility into the resource operations performed on or within a resource. These are also known as data plane operations. Data events are often high-volume activities.
 Example data events include:
-• Amazon S3 object-level API activity (for example, GetObject, DeleteObject, and PutObject API operations).
-• AWS Lambda function execution activity (the Invoke API).
+    • Amazon S3 object-level API activity (for example, GetObject, DeleteObject, and PutObject API operations).
+    • AWS Lambda function execution activity (the Invoke API).
+
 Management events provide visibility into management operations that are performed on resources in your AWS account. These are also known as control plane operations. Example management events include:
-• Configuring security (for example, IAM AttachRolePolicy API operations)
-• Registering devices (for example, Amazon EC2 CreateDefaultVpc API operations).
+    • Configuring security (for example, IAM AttachRolePolicy API operations)
+    • Registering devices (for example, Amazon EC2 CreateDefaultVpc API operations).
 Therefore, to log data about access to the S3 objects the solutions architect should log read and write data events.
 
